@@ -1,0 +1,17 @@
+{
+  "$id": "1",
+  "$values": [
+    {
+      "$id": "2",
+      "TransactionId": "eb0b77e0-6e20-4c72-9520-5d8d464296e5",
+      "TransactionType": "Transfer",
+      "TransactionDate": "2025-02-28",
+      "TransactionTime": "12:00:00",
+      "PriorBalance": 15000,
+      "TransactionAmount": 700,
+      "SourceAccountNumber": 10831247,
+      "TargetAccountNumber": 10831247,
+      "Description": "Transfer from checking to savings account-(TRANSFER)"
+    }
+  ]
+}

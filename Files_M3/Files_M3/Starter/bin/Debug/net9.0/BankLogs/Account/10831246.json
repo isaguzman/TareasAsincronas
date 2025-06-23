@@ -1,0 +1,310 @@
+{
+  "$id": "1",
+  "AccountNumber": 10831246,
+  "CustomerId": "0014491152",
+  "Balance": 3381.8,
+  "AccountType": "Checking",
+  "InterestRate": 0,
+  "Owner": {
+    "$id": "2",
+    "CustomerId": "0014491152",
+    "FirstName": "Niki",
+    "LastName": "Demetriou",
+    "Accounts": {
+      "$id": "3",
+      "$values": [
+        {
+          "$ref": "1"
+        },
+        {
+          "$id": "4",
+          "AccountNumber": 10831247,
+          "CustomerId": "0014491152",
+          "Balance": 15700,
+          "AccountType": "Savings",
+          "InterestRate": 0.02,
+          "Owner": {
+            "$ref": "2"
+          },
+          "Transactions": {
+            "$id": "5",
+            "$values": [
+              {
+                "$id": "6",
+                "TransactionId": "eb0b77e0-6e20-4c72-9520-5d8d464296e5",
+                "TransactionType": "Transfer",
+                "TransactionDate": "2025-02-28",
+                "TransactionTime": "12:00:00",
+                "PriorBalance": 15000,
+                "TransactionAmount": 700,
+                "SourceAccountNumber": 10831247,
+                "TargetAccountNumber": 10831247,
+                "Description": "Transfer from checking to savings account-(TRANSFER)"
+              }
+            ]
+          }
+        },
+        {
+          "$id": "7",
+          "AccountNumber": 10831248,
+          "CustomerId": "0014491152",
+          "Balance": 90000,
+          "AccountType": "Money Market",
+          "InterestRate": 0.04,
+          "Owner": {
+            "$ref": "2"
+          },
+          "Transactions": {
+            "$id": "8",
+            "$values": []
+          }
+        }
+      ]
+    }
+  },
+  "Transactions": {
+    "$id": "9",
+    "$values": [
+      {
+        "$id": "10",
+        "TransactionId": "33a964df-88a7-4f9e-82d6-2a5960a4e079",
+        "TransactionType": "Withdraw",
+        "TransactionDate": "2025-02-01",
+        "TransactionTime": "12:00:00",
+        "PriorBalance": 5000,
+        "TransactionAmount": 2861.2,
+        "SourceAccountNumber": 10831246,
+        "TargetAccountNumber": 10831246,
+        "Description": "Rent payment"
+      },
+      {
+        "$id": "11",
+        "TransactionId": "596e1f3b-2854-40ee-bf27-e5467a0acd1d",
+        "TransactionType": "Withdraw",
+        "TransactionDate": "2025-02-01",
+        "TransactionTime": "21:00:00",
+        "PriorBalance": 2138.8,
+        "TransactionAmount": 210,
+        "SourceAccountNumber": 10831246,
+        "TargetAccountNumber": 10831246,
+        "Description": "Debit card purchase"
+      },
+      {
+        "$id": "12",
+        "TransactionId": "ef8d85ee-5cf3-4b52-af42-e07120a2050f",
+        "TransactionType": "Withdraw",
+        "TransactionDate": "2025-02-03",
+        "TransactionTime": "08:00:00",
+        "PriorBalance": 1928.8000000000002,
+        "TransactionAmount": 400,
+        "SourceAccountNumber": 10831246,
+        "TargetAccountNumber": 10831246,
+        "Description": "Withdraw for expenses"
+      },
+      {
+        "$id": "13",
+        "TransactionId": "881e05ab-3431-4cad-b6ec-fc7153c10573",
+        "TransactionType": "Bank Fee",
+        "TransactionDate": "2025-02-03",
+        "TransactionTime": "12:00:00",
+        "PriorBalance": 1528.8000000000002,
+        "TransactionAmount": 50,
+        "SourceAccountNumber": 10831246,
+        "TargetAccountNumber": 10831246,
+        "Description": "-(BANK FEE)"
+      },
+      {
+        "$id": "14",
+        "TransactionId": "a4fe3f15-4c02-4fbf-935d-e3b557c2c064",
+        "TransactionType": "Bank Refund",
+        "TransactionDate": "2025-02-05",
+        "TransactionTime": "12:00:00",
+        "PriorBalance": 1478.8000000000002,
+        "TransactionAmount": 100,
+        "SourceAccountNumber": 10831246,
+        "TargetAccountNumber": 10831246,
+        "Description": "Refund for overcharge -(BANK REFUND)"
+      },
+      {
+        "$id": "15",
+        "TransactionId": "be9edda9-6ef2-4c6b-9e79-7d576e654121",
+        "TransactionType": "Withdraw",
+        "TransactionDate": "2025-02-08",
+        "TransactionTime": "21:00:00",
+        "PriorBalance": 1578.8000000000002,
+        "TransactionAmount": 198,
+        "SourceAccountNumber": 10831246,
+        "TargetAccountNumber": 10831246,
+        "Description": "Debit card purchase"
+      },
+      {
+        "$id": "16",
+        "TransactionId": "4017ce7b-a589-4b60-a914-13b31baf5a61",
+        "TransactionType": "Withdraw",
+        "TransactionDate": "2025-02-10",
+        "TransactionTime": "08:00:00",
+        "PriorBalance": 1380.8000000000002,
+        "TransactionAmount": 400,
+        "SourceAccountNumber": 10831246,
+        "TargetAccountNumber": 10831246,
+        "Description": "Withdraw for expenses"
+      },
+      {
+        "$id": "17",
+        "TransactionId": "21b7f4c7-1362-4e82-94b6-5cbde880ba8c",
+        "TransactionType": "Bank Fee",
+        "TransactionDate": "2025-02-10",
+        "TransactionTime": "12:00:00",
+        "PriorBalance": 980.8000000000002,
+        "TransactionAmount": 50,
+        "SourceAccountNumber": 10831246,
+        "TargetAccountNumber": 10831246,
+        "Description": "-(BANK FEE)"
+      },
+      {
+        "$id": "18",
+        "TransactionId": "aef4c426-3ab0-4be1-95f3-3204a3ce8118",
+        "TransactionType": "Deposit",
+        "TransactionDate": "2025-02-14",
+        "TransactionTime": "12:00:00",
+        "PriorBalance": 930.8000000000002,
+        "TransactionAmount": 3084,
+        "SourceAccountNumber": 10831246,
+        "TargetAccountNumber": 10831246,
+        "Description": "Bi-monthly salary deposit"
+      },
+      {
+        "$id": "19",
+        "TransactionId": "b16cd5a2-9325-4567-a442-997fb674b605",
+        "TransactionType": "Withdraw",
+        "TransactionDate": "2025-02-15",
+        "TransactionTime": "21:00:00",
+        "PriorBalance": 4014.8,
+        "TransactionAmount": 197,
+        "SourceAccountNumber": 10831246,
+        "TargetAccountNumber": 10831246,
+        "Description": "Debit card purchase"
+      },
+      {
+        "$id": "20",
+        "TransactionId": "73669994-95e8-478a-b989-6479d0bb473b",
+        "TransactionType": "Withdraw",
+        "TransactionDate": "2025-02-17",
+        "TransactionTime": "08:00:00",
+        "PriorBalance": 3817.8,
+        "TransactionAmount": 400,
+        "SourceAccountNumber": 10831246,
+        "TargetAccountNumber": 10831246,
+        "Description": "Withdraw for expenses"
+      },
+      {
+        "$id": "21",
+        "TransactionId": "34cb2469-9d28-4413-af74-f8f013242072",
+        "TransactionType": "Withdraw",
+        "TransactionDate": "2025-02-20",
+        "TransactionTime": "12:00:00",
+        "PriorBalance": 3417.8,
+        "TransactionAmount": 64,
+        "SourceAccountNumber": 10831246,
+        "TargetAccountNumber": 10831246,
+        "Description": "Auto-pay waste management bill"
+      },
+      {
+        "$id": "22",
+        "TransactionId": "129ed627-a919-407c-bd79-91072e91bfcf",
+        "TransactionType": "Withdraw",
+        "TransactionDate": "2025-02-20",
+        "TransactionTime": "12:00:00",
+        "PriorBalance": 3353.8,
+        "TransactionAmount": 81,
+        "SourceAccountNumber": 10831246,
+        "TargetAccountNumber": 10831246,
+        "Description": "Auto-pay water and sewer bill"
+      },
+      {
+        "$id": "23",
+        "TransactionId": "b006052f-db19-4fce-bc39-5c17c8df4b09",
+        "TransactionType": "Withdraw",
+        "TransactionDate": "2025-02-20",
+        "TransactionTime": "12:00:00",
+        "PriorBalance": 3272.8,
+        "TransactionAmount": 119,
+        "SourceAccountNumber": 10831246,
+        "TargetAccountNumber": 10831246,
+        "Description": "Auto-pay gas and electric bill"
+      },
+      {
+        "$id": "24",
+        "TransactionId": "34841913-36d7-406f-837e-b3d85e6fd0cf",
+        "TransactionType": "Withdraw",
+        "TransactionDate": "2025-02-20",
+        "TransactionTime": "12:00:00",
+        "PriorBalance": 3153.8,
+        "TransactionAmount": 138,
+        "SourceAccountNumber": 10831246,
+        "TargetAccountNumber": 10831246,
+        "Description": "Auto-pay health club membership"
+      },
+      {
+        "$id": "25",
+        "TransactionId": "918d94de-dc73-424b-bd61-4e4418091449",
+        "TransactionType": "Withdraw",
+        "TransactionDate": "2025-02-22",
+        "TransactionTime": "21:00:00",
+        "PriorBalance": 3015.8,
+        "TransactionAmount": 166,
+        "SourceAccountNumber": 10831246,
+        "TargetAccountNumber": 10831246,
+        "Description": "Debit card purchase"
+      },
+      {
+        "$id": "26",
+        "TransactionId": "d9e02297-69b6-4e03-b1ff-a40c18bf74c1",
+        "TransactionType": "Withdraw",
+        "TransactionDate": "2025-02-24",
+        "TransactionTime": "08:00:00",
+        "PriorBalance": 2849.8,
+        "TransactionAmount": 400,
+        "SourceAccountNumber": 10831246,
+        "TargetAccountNumber": 10831246,
+        "Description": "Withdraw for expenses"
+      },
+      {
+        "$id": "27",
+        "TransactionId": "bee7f599-a276-426e-8394-11dd8227c56f",
+        "TransactionType": "Withdraw",
+        "TransactionDate": "2025-02-28",
+        "TransactionTime": "12:00:00",
+        "PriorBalance": 2449.8,
+        "TransactionAmount": 1452,
+        "SourceAccountNumber": 10831246,
+        "TargetAccountNumber": 10831246,
+        "Description": "Auto-pay credit card bill"
+      },
+      {
+        "$id": "28",
+        "TransactionId": "fb02b1dc-bac9-4e79-8f62-8ddfd400242d",
+        "TransactionType": "Deposit",
+        "TransactionDate": "2025-02-28",
+        "TransactionTime": "12:00:00",
+        "PriorBalance": 997.8000000000002,
+        "TransactionAmount": 3084,
+        "SourceAccountNumber": 10831246,
+        "TargetAccountNumber": 10831246,
+        "Description": "Bi-monthly salary deposit"
+      },
+      {
+        "$id": "29",
+        "TransactionId": "7f4301b3-2e20-400c-ba2e-8b720a49c390",
+        "TransactionType": "Transfer",
+        "TransactionDate": "2025-02-28",
+        "TransactionTime": "12:00:00",
+        "PriorBalance": 4081.8,
+        "TransactionAmount": 700,
+        "SourceAccountNumber": 10831246,
+        "TargetAccountNumber": 10831246,
+        "Description": "Transfer from checking to savings account-(TRANSFER)"
+      }
+    ]
+  }
+}
